@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(10, 0, 0);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.right-links {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.right-links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.hero-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text {
+  width: 700px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+
+.image-area {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(28, 26, 26);
+}
+
+.hero h1 {
+  font-size: 64px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.hero p {
+  color: rgb(220, 214, 214);
+}
+
+.hero button {
+  background-color: rgb(81, 48, 48);
+  width: 150px;
+  height: 75px;
+  border: 2px rgb(97, 56, 56) solid;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  font-weight: bolder;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.footer {
+  padding: 50px;
+  background-color: rgb(22, 21, 21);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.quick-links {
+  display: flex;
+  gap: 100px;
+}
+
+.contact {
+  display: flex;
+  gap: 75px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.membership-plans,
+.why-choose-us {
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.card {
+  background-color: rgb(59, 34, 83);
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
