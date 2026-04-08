@@ -60,10 +60,10 @@ body {
 }
 
 .hero button {
-  background-color: rgb(81, 48, 48);
+  background-color: rgb(38, 35, 35);
   width: 150px;
   height: 75px;
-  border: 2px rgb(97, 56, 56) solid;
+  border: 2px rgb(46, 44, 44) solid;
   border-radius: 10px;
   padding: 10px;
   cursor: pointer;
@@ -107,7 +107,6 @@ body {
 .membership-plans,
 .why-choose-us {
   margin-top: 100px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,16 +114,88 @@ body {
 }
 
 .cards {
-  margin-top: 50px;
+  margin-top: 25px;
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 
 .card {
-  background-color: rgb(59, 34, 83);
+  background-color: rgb(42, 39, 45);
   width: 300px;
-  height: 500px;
+  height: 400px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 25px;
+  gap: 30px;
+}
+
+.why-choose-us h1 {
+  font-size: 56px;
+  font-weight: 800;
+}
+
+.membership-plans h1 {
+  font-size: 56px;
+  font-weight: 800;
+}
+
+.membership-plans {
+  margin-bottom: 100px;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.quote-one p,
+.quote-two p {
+  font-size: 24px;
+}
+
+.quote-one,
+.quote-two {
+  width: 500px;
+  background-color: rgb(37, 43, 37);
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.card button {
+  width: 100px;
+  color: white;
+  background-color: rgb(58, 52, 52);
+  border: 3px rgb(57, 56, 56) solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: rgb(26, 24, 24);
+}
+
+.card h2 {
+  font-size: 38px;
+  margin: 0;
+  padding: 0;
+}
+
+.price {
+  font-size: 48px;
+  margin: 0;
+}
+
+.benefits {
+  font-size: 15px;
+}
+
+.why-choose-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
