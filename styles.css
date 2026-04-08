@@ -43,6 +43,10 @@ body {
 .image-area {
   width: 600px;
   height: 400px;
+  background-image: url(https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: grey;
   display: flex;
   justify-content: center;
