@@ -284,9 +284,8 @@ body {
   .quote-two {
     margin: 0;
   }
-}
-
-.navbar {
-  flex-direction: column;
-  gap: 30px;
+  .navbar {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
