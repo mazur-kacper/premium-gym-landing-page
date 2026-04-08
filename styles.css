@@ -288,4 +288,7 @@ body {
     flex-direction: column;
     gap: 30px;
   }
+  .cta {
+    height: 500px;
+  }
 }
