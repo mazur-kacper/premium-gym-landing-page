@@ -130,7 +130,7 @@ body {
 .card {
   background-color: #17171d;
   border-radius: 20px;
-  width: 300px;
+  width: 400px;
   height: 400px;
   display: flex;
   flex-direction: column;
